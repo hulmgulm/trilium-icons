@@ -1,0 +1,1 @@
+# trilium-emoji-icons
