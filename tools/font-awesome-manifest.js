@@ -1,4 +1,4 @@
-/* this script creates serveral json files, which can be used as manifests for the font awesome icon packs */
+/* this script creates several json files, which can be used as manifests for the font awesome icon packs */
 const fs = require('node:fs');
 
 const iconsBrands = { icons: {} };

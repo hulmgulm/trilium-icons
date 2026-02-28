@@ -29,3 +29,11 @@ The Font-Awesome Brands Icon Pack allows to use most of the free Font-Awesome br
 The fonts included are the [Font-Awesome WebFonts](https://github.com/FortAwesome/Font-Awesome/tree/7.x/webfonts), distributed by Fonticons under the [SIL Open Font License](https://github.com/FortAwesome/Font-Awesome?tab=License-1-ov-file#readme).
 
 In the tools directory, you can find a nodejs script, which was used to create the manifest for these icon packs from the Font-Awesome css files.
+
+## Material Design Icon Pack
+
+Version 1.0.0
+
+This icon pack allows to use Google Material Design Icon as note icons. It is based on the font file from this [GitHub repository](https://github.com/google/material-design-icons/tree/master/variablefont). The icon descriptions are from the font [codepoints](https://github.com/google/material-design-icons/blob/master/variablefont/MaterialSymbolsOutlined%5BFILL%2CGRAD%2Copsz%2Cwght%5D.codepoints). It uses the `mat` prefix.
+
+The font included is the outlined version of the font. In case you prefer the rounded or the sharp version, you can download the file from the GitHub repository and replace the attachment of sub note of this note. The font is distributed by Google under the [Apache-2.0 license](https://github.com/google/material-design-icons/tree/master#Apache-2.0-1-ov-file).
