@@ -2,6 +2,8 @@
 
 ## Emoji Icon Pack
 
+Version 1.0.2
+
 This icon pack allows to use most of the emoji characters as note icons. It is based on Unicode v17.0.
 
 <img width="640" height="649" alt="image" src="https://github.com/user-attachments/assets/272c3b15-0345-4e94-8ed4-863b9492383a" />
@@ -15,6 +17,8 @@ The font included is the [Google Noto Color Emoji](https://github.com/googlefont
 In the tools directory, you can find a nodejs script, which was used to create the manifest for this icon pack.
 
 ## Font-Awesome Icon Packs
+
+Version 1.1.0
 
 This icon pack consists of two icon packs, based on Font-Awesome 7.2.0 ([Changelog](https://fontawesome.com/changelog))
 
@@ -34,7 +38,7 @@ In the tools directory, you can find a nodejs script, which was used to create t
 
 Version 1.0.0
 
-This icon pack allows to use Google Material Design Icon as note icons. 
+This icon pack allows to use Google Material Design Icon as note icons.
 
 <img width="627" height="643" alt="image" src="https://github.com/user-attachments/assets/e830c6ba-aee0-4174-8df2-69886cf4f481" />
 

@@ -27,7 +27,9 @@ fetch(`https://unicode.org/emoji/charts/full-emoji-list.html`)
       const name = emoji[2]
         .replace(/⊛/g, '')
         .trim()
-        .replace(/ &amp; |: |:|\.| - | \(| \)|! | "|" |"|\)|'| /g, '-')
+        .replace(/ &amp; |: |:|\.|,| - | \(| \)|! | "|" |"|\)|'| /g, '-')
+        .replace(/#/g, 'hash')
+        .replace(/\*/g, 'star')
         .replace(/--/g, '-')
         .trim()
         .toLowerCase();
