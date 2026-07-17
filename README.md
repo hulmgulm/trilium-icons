@@ -18,9 +18,9 @@ In the tools directory, you can find a nodejs script, which was used to create t
 
 ## Font-Awesome Icon Packs
 
-Version 1.2.0
+Version 1.2.1
 
-This icon pack consists of two icon packs, based on Font-Awesome 7.3.0 ([Changelog](https://fontawesome.com/changelog))
+This icon pack consists of two icon packs, based on Font-Awesome 7.3.1 ([Changelog](https://fontawesome.com/changelog))
 
 The Font-Awesome Icon Pack allows to use most of the free Font-Awesome icons as note icons. It uses the `fa-solid` prefix.
 
