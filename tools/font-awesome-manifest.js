@@ -1,4 +1,5 @@
-/* this script creates several json files, which can be used as manifests for the font awesome icon packs */
+/* this NodeJS script creates several json files, which can be used as manifests for the font awesome icon pack */
+/* it also downloads the required css and font files */
 const fs = require('node:fs');
 
 const FONT_AWESOME_VERSION = '7.x';

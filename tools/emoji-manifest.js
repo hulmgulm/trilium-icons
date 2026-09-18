@@ -1,4 +1,4 @@
-/* this script creates emoji.json file, which can be used as manifest for the emoji icon pack */
+/* this nodejs script creates emoji.json file, which can be used as manifest for the emoji icon pack */
 const fs = require('node:fs');
 const icons = { icons: {} };
 
@@ -35,7 +35,7 @@ fetch(`https://unicode.org/emoji/charts/full-emoji-list.html`)
         .toLowerCase();
       icons.icons[`utf-${name}`] = {
         glyph: emoji[1],
-        terms: [emoji[2]]
+        terms: [emoji[2].replace(/⊛/g, '').trim()]
       };
     });
     fs.writeFileSync('emoji.json', JSON.stringify(icons, null, 2));
